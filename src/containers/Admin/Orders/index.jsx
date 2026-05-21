@@ -40,7 +40,7 @@ export function Orders() {
             const { data } = await api.get('/orders');
             setFilterOrders(data)
             setOrders(data)
-            console.log(data)
+
         }
 
         loadOrders()

@@ -36,7 +36,7 @@ export function EditProducts() {
     // Tenta pegar o produto de forma segura. O "?" evita o erro vermelho!
     const product = state?.product;
 
-    console.log(product)
+
 
     useEffect(() => {
 

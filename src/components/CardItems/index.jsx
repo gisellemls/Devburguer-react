@@ -8,7 +8,7 @@ export function CardItems() {
 
     const { cartProducts, increaseProduct, decreaseProduct, deleteProduct } = useCart();
 
-    console.log(cartProducts)
+
     return (
 
         <Table.Root>

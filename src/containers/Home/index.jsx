@@ -7,7 +7,7 @@ import { useUser } from '../../hooks/UserContext.jsx';
 
 
 export function Home() {
-    console.log(useUser())
+
     return (
 
         <main>

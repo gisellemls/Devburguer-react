@@ -11,7 +11,7 @@ export function NavMenu() {
     const { logout } = useUser();
     const { pathname } = useResolvedPath();
 
-    console.log(pathname)
+
 
     return (
 

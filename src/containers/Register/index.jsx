@@ -49,7 +49,7 @@ export function Register() {
         resolver: yupResolver(schema),
     });
 
-    console.log(errors);
+
 
     // Função para lidar com o envio do formulário & Aqui você pode fazer a chamada para a API de login //
     const onSubmit = async (data) => {
@@ -85,9 +85,9 @@ export function Register() {
 
             }
 
-            console.log(status)
 
-        } catch (error) {
+
+        } catch (_error) {
 
             toast.error('Falha no sistema! Tente novamente.')
         }

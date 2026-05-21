@@ -45,8 +45,7 @@ export default function CheckoutForm() {
             redirect: 'if_required',
         });
 
-        console.log(paymentIntent)
-        console.log(error)
+
         if (error) {
             // Se o cartão for recusado ou der erro na rede
             setMessage(error.message);

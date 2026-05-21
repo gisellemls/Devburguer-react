@@ -17,7 +17,6 @@ export function Checkout() {
 
     }
 
-    console.log(clientSecret)
 
 
     return (

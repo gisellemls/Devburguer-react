@@ -51,7 +51,7 @@ export function Products() {
 
         navigate('/admin/editar-produto', { state: { product } })
 
-        console.log(product)
+
     }
 
 
